@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import Layout from './components/layout/Layout';
+import SignUp from './pages/SignUp';
+import SignIn from './pages/SignIn';
+import Home from './pages/Home';
+import { Routes, Route } from 'react-router-dom';
+import Organisation from './components/Tasks/Organisation';
+import AdminDashboard from './pages/AdminDashboard';
+import { useSelector } from 'react-redux';
 
 function App() {
+  const { isLoggedIn } = useSelector(state => state.login);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/sign-up" element={<SignUp />} />
+        <Route path="/sign-in" element={<SignIn />} />
+        {isLoggedIn && (
+          <Route path="admin-dashboard" element={<AdminDashboard />} />
+        )}
+        {isLoggedIn && (
+          <Route path="/organisation" element={<Organisation />} />
+        )}
+        <Route path="/*" element={<Home />} />
+      </Routes>
+
+      <ToastContainer style={{ fontSize: '1.8rem', fontFamily: 'inherit' }} />
+    </Layout>
   );
 }
 
