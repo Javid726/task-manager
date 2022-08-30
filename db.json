@@ -1,115 +1,125 @@
 {
-  "organization": [
-    {
-      "id": 2,
-      "name": "Caspian Innovation Center",
-      "phone": 994504751282,
-      "email": "caspianic@gmail.com",
-      "address": "5th Avenue",
-      "adminUsername": "caspianic_admin",
-      "adminPassword": "caspianic2007",
-      "users": [
+    "organization": [
         {
-          "id": 1,
-          "email": "javid@gmail.com",
-          "name": "Javid",
-          "surname": "Gasimov",
-          "password": "localHost12345",
-          "tasks": {
-            "title": "",
-            "description": "",
-            "deadline": "",
-            "status": ""
-          }
+            "id": 2,
+            "name": "Caspian Innovation Center",
+            "phone": 994504751282,
+            "email": "caspianic@gmail.com",
+            "address": "5th Avenue",
+            "adminUsername": "caspianic_admin",
+            "adminPassword": "caspianic2007",
+            "users": [
+                {
+                    "id": 1,
+                    "email": "javid@gmail.com",
+                    "name": "Javid",
+                    "surname": "Gasimov",
+                    "password": "localHost12345",
+                    "tasks": {
+                        "title": "",
+                        "description": "",
+                        "deadline": "",
+                        "status": ""
+                    }
+                },
+                {
+                    "id": 1,
+                    "email": "crishbosh@gmail.com",
+                    "name": "Cris",
+                    "surname": "Bosh",
+                    "password": "test12345",
+                    "tasks": {
+                        "title": "",
+                        "description": "",
+                        "deadline": "",
+                        "status": ""
+                    }
+                }
+            ]
         },
         {
-          "id": 1,
-          "email": "crishbosh@gmail.com",
-          "name": "Cris",
-          "surname": "Bosh",
-          "password": "test12345",
-          "tasks": {
-            "title": "",
-            "description": "",
-            "deadline": "",
-            "status": ""
-          }
-        }
-      ]
-    },
-    {
-      "id": 1,
-      "name": "",
-      "phone": null,
-      "email": "",
-      "address": "",
-      "adminUsername": "",
-      "adminPassword": "",
-      "users": [
-        {
-          "id": 1,
-          "email": "javid@gmail.com",
-          "name": "Javid",
-          "surname": "Gasimov",
-          "password": "localHost12345",
-          "tasks": {
-            "title": "",
-            "description": "",
-            "deadline": "",
-            "status": ""
-          }
+            "id": 1,
+            "name": "",
+            "phone": null,
+            "email": "",
+            "address": "",
+            "adminUsername": "",
+            "adminPassword": "",
+            "users": [
+                {
+                    "id": 1,
+                    "email": "javid@gmail.com",
+                    "name": "Javid",
+                    "surname": "Gasimov",
+                    "password": "localHost12345",
+                    "tasks": {
+                        "title": "",
+                        "description": "",
+                        "deadline": "",
+                        "status": ""
+                    }
+                },
+                {
+                    "id": 1,
+                    "email": "crishbosh@gmail.com",
+                    "name": "Cris",
+                    "surname": "Bosh",
+                    "password": "test12345",
+                    "tasks": {
+                        "title": "",
+                        "description": "",
+                        "deadline": "",
+                        "status": ""
+                    }
+                }
+            ]
         },
         {
-          "id": 1,
-          "email": "crishbosh@gmail.com",
-          "name": "Cris",
-          "surname": "Bosh",
-          "password": "test12345",
-          "tasks": {
-            "title": "",
-            "description": "",
-            "deadline": "",
-            "status": ""
-          }
-        }
-      ]
-    },
-    {
-      "name": "express1",
-      "phone": "994508648212",
-      "email": "express@gmail.com",
-      "address": "5th avenue",
-      "adminUsername": "Express Bank",
-      "adminPassword": "test12345",
-      "users": [
-        {
-          "id": 1,
-          "email": "javid@gmail.com",
-          "name": "Javid",
-          "surname": "Gasimov",
-          "password": "localHost12345",
-          "tasks": {
-            "title": "",
-            "description": "",
-            "deadline": "",
-            "status": ""
-          }
+            "name": "express1",
+            "phone": "994508648212",
+            "email": "express@gmail.com",
+            "address": "5th avenue",
+            "adminUsername": "Express Bank",
+            "adminPassword": "test12345",
+            "users": [
+                {
+                    "id": 1,
+                    "email": "javid@gmail.com",
+                    "name": "Javid",
+                    "surname": "Gasimov",
+                    "password": "localHost12345",
+                    "tasks": {
+                        "title": "",
+                        "description": "",
+                        "deadline": "",
+                        "status": ""
+                    }
+                },
+                {
+                    "id": 1,
+                    "email": "crishbosh@gmail.com",
+                    "name": "Cris",
+                    "surname": "Bosh",
+                    "password": "test12345",
+                    "tasks": {
+                        "title": "",
+                        "description": "",
+                        "deadline": "",
+                        "status": ""
+                    }
+                }
+            ],
+            "id": 3
         },
         {
-          "id": 1,
-          "email": "crishbosh@gmail.com",
-          "name": "Cris",
-          "surname": "Bosh",
-          "password": "test12345",
-          "tasks": {
-            "title": "",
-            "description": "",
-            "deadline": "",
-            "status": ""
-          }
+            "name": "adminuser",
+            "phone": "994508648212",
+            "email": "contact@imb.com",
+            "address": "5th avenue",
+            "adminUsername": "IMB",
+            "adminPassword": "ibm12345",
+            "users": [],
+            "id": 4
         }
-      ],
-      "id": 3
-    }
-  ]
+    ]
 }
