@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+After cloning the project, execute "npm run dev" command in order to run http://localhost:3000/ and, for json-placeholder fake api, http://localhost:5001/ ports.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
